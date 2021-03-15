@@ -1,0 +1,34 @@
+
+/* !=== Footer ===! */
+
+.footer {
+    /* align-items: left; */
+    padding: 60px 0;
+    background-color: $primary-background;
+}
+
+.footer__container {
+    max-width: $cont-width;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.footer__container--decor {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    max-width: 1170px;
+}
+
+.footer__title {
+    color: $primary-white;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
