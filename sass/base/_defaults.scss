@@ -69,6 +69,27 @@ address {
     letter-spacing: 0.06em;
 }
 
+
+/* !=== SECTION ===! */
+
+.section-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.172;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
