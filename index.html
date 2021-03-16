@@ -5,22 +5,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <!-- <script src="./js/script.js"></script> -->
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.2.0/modern-normalize.min.css" integrity="sha512-sqIVMkf5f8XGYI/UZYGs7wODxlUeoj9JknataPfUwtvrSKWMHrMXGZ7Evb6nabFYJQG15vFFyALe6r0nWCD1Ug==" crossorigin="anonymous" />
-    <!-- <link rel="stylesheet" href="./css/normalize.css" /> -->
+
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@100;300;400;600;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@100;300;400;600;700&display=swap" rel="stylesheet" />
-    <!-- <link rel="stylesheet" href="./css/common.css" /> -->
-    <!-- <link rel="stylesheet" href="./css/main.css" /> -->
+
     <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 
 <body>
     <!-- !Page-Header! -->
     <header class="page-header">
-        <div class="page-header__container">
+        <div class="container container--page-header">
             <!--*Навигация -->
             <nav class="nav">
                 <a href="./index.html" class="__logo">
@@ -65,12 +64,10 @@
         <!-- !HERO! -->
         <div class="hero__overlay">
             <section class="hero">
-                <div class="hero__container">
-                    <div class="hero__title">
-                        <h1 class="hero__title">
-                            Эффективные решения <br /> для вашего бизнеса
-                        </h1>
-                    </div>
+                <div class="container container--hero">
+                    <h1 class="hero__title">
+                        Эффективные решения <br /> для вашего бизнеса
+                    </h1>
 
                     <button class="btn-primary" type="button" data-modal-open="">
                             Заказать услугу
@@ -81,7 +78,7 @@
 
         <!-- !FEATURES! -->
         <section class="section features">
-            <div class="features__container">
+            <div class="container">
                 <h2 class="section-title visually-hidden">Особенности</h2>
                 <ul class="features__list">
                     <li class="features__item">
@@ -145,7 +142,7 @@
 
         <!-- !ABOUT! -->
         <section class="section about">
-            <div class="about__container">
+            <div class="container">
                 <h2 class="section-title">Чем мы занимаемся</h2>
                 <ul class="about__list">
                     <li class="about__item">
@@ -186,7 +183,7 @@
 
         <!-- !TEAM! -->
         <section class="section team">
-            <div class="team__container">
+            <div class="container">
                 <h2 class="section-title">Наша команда</h2>
                 <ul class="team__list">
                     <li class="team__item">
@@ -371,7 +368,7 @@
         <!-- !CLIENTS! -->
 
         <section class="section clients">
-            <div class="clients__container">
+            <div class="container">
                 <h2 class="section-title">Постоянные клиенты</h2>
                 <ul class="clients__list">
                     <li class="clients__item">
@@ -424,7 +421,7 @@
     <!-- !=== FOOTER ===! -->
 
     <footer class="footer">
-        <div class="footer__container">
+        <div class="container">
             <div class="footer__container--decor">
                 <!--* FOOTER ADRESS CONTAINER -->
 
@@ -540,15 +537,15 @@
                     </p>
 
                     <label class="modal-label">
-                            <span class="modal-label-name">Имя</span>
+                            <span class="modal-label__name">Имя</span>
                             <input
-                                class="modal-input"
+                                class="modal__input"
                                 type="features__text"
                                 name="username"
                                 id="username"
                             />
                             <svg
-                                class="modal-icon username"
+                                class="modal__icon modal__icon--username"
                                 width="18px"
                                 height="18px"
                             >
@@ -557,15 +554,15 @@
                         </label>
 
                     <label class="modal-label">
-                            <p class="modal-label-name">Телефон</p>
+                            <p class="modal-label__name">Телефон</p>
                             <input
-                                class="modal-input"
+                                class="modal__input"
                                 type="tel"
                                 name="phone"
                                 id="phone"
                             />
                             <svg
-                                class="modal-icon phone"
+                                class="modal__icon modal__icon--phone"
                                 width="18px"
                                 height="18px"
                             >
@@ -574,15 +571,15 @@
                         </label>
 
                     <label for="email" class="modal-label">
-                            <p class="modal-label-name">Почта</p>
+                            <p class="modal-label__name">Почта</p>
                             <input
-                                class="modal-input"
+                                class="modal__input"
                                 type="email"
                                 name="email"
                                 id="email"
                             />
                             <svg
-                                class="modal-icon email"
+                                class="modal__icon modal__icon--email"
                                 width="18px"
                                 height="18px"
                             >
@@ -591,9 +588,9 @@
                         </label>
 
                     <label class="modal-label comment">
-                            <p class="modal-label-name">Комментарий</p>
+                            <p class="modal-label__name">Комментарий</p>
                             <textarea
-                                class="modal-textarea"
+                                class="modal__textarea"
                                 name="comment"
                                 rows="5"
                                 placeholder="Введите текст"

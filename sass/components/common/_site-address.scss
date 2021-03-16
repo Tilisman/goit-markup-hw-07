@@ -27,8 +27,11 @@
     &:hover {
         color: $primary-white;
     }
-    &.location:hover {
-        color: $primary-text-color;
+    &.location {
+        color: $primary-white;
+        &:hover {
+            color: $primary-text-color;
+        }
     }
 }
 

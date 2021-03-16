@@ -34,10 +34,10 @@
     display: inline-block;
     width: 16px;
     height: 15px;
-    background-image: url(../svg/checkbox1.svg);
+    background-image: url(../images/svg/checkbox1.svg);
     transition: $transition-dur $cubic-bezier;
 }
 
 .modal-checkbox-input:checked+.modal-checkbox-icon {
-    background-image: url(../svg/checkbox2.svg);
+    background-image: url(../images/svg/checkbox2.svg);
 }
