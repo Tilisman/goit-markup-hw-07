@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background: #ffffff;
   margin: 0;
   padding: 0;
@@ -180,7 +180,7 @@ address {
   width: -moz-fit-content;
   width: fit-content;
   color: #2196f3;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 26px;
@@ -236,14 +236,16 @@ address {
   /*  */
   /* underline */
 }
+
 .nav__link:hover, .nav__link:focus {
   color: #2196f3;
 }
+
 .nav__link::after {
   display: block;
   position: absolute;
   top: 100%;
-  content: "";
+  content: '';
   height: 4px;
   width: 100%;
   background-color: #2196f3;
@@ -255,6 +257,7 @@ address {
   transition: 250ms transform ease-in-out;
   transition: 250ms transform ease-in-out, 250ms -webkit-transform ease-in-out;
 }
+
 .nav__link:hover::after, .nav__link:focus::after {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
@@ -264,9 +267,10 @@ address {
   color: #2196f3;
   /* underline */
 }
+
 .nav__link.current::after {
   display: block;
-  content: "";
+  content: '';
   height: 4px;
   width: 100%;
   background-color: #2196f3;
@@ -310,6 +314,7 @@ address {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   /*  */
 }
+
 .contacts__link:hover, .contacts__link:focus {
   color: #2196f3;
   -webkit-transform: scale(1.025);
@@ -403,12 +408,15 @@ address {
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .address__link:hover {
   color: #ffffff;
 }
+
 .address__link.location {
   color: #ffffff;
 }
+
 .address__link.location:hover {
   color: #757575;
 }
@@ -461,6 +469,7 @@ address {
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .social__link:hover, .social__link:focus {
   color: #ffffff;
   background-color: #2196f3;
@@ -475,6 +484,7 @@ address {
           box-shadow: none;
   margin-bottom: 30px;
 }
+
 .social__item:focus {
   outline: none;
 }
@@ -489,6 +499,7 @@ address {
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0.1);
 }
+
 .footer .social__link:hover, .footer .social__link:focus {
   background-color: #2196f3;
 }
@@ -530,18 +541,12 @@ address {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
+
 .subscribtion-form__input:focus {
   outline: none;
   background-color: transparent;
 }
-.subscribtion-form__input:not(:-moz-placeholder-shown) {
-  color: #757575;
-  background-color: transparent;
-}
-.subscribtion-form__input:not(:-ms-input-placeholder) {
-  color: #757575;
-  background-color: transparent;
-}
+
 .subscribtion-form__input:not(:placeholder-shown) {
   color: #757575;
   background-color: transparent;
@@ -646,6 +651,7 @@ address {
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .button-modal-close svg:hover {
   color: #2196f3;
   cursor: pointer;
@@ -689,11 +695,13 @@ address {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
+
 .modal__input:focus {
   outline: none;
   border-color: #2196f3;
   color: #2196f3;
 }
+
 .modal__input:focus + .modal-icon {
   color: #2196f3;
 }
@@ -707,6 +715,7 @@ address {
   border-radius: 4px;
   resize: none;
 }
+
 .modal__textarea:focus {
   outline: none;
   border-color: #2196f3;
@@ -749,21 +758,23 @@ svg.modal__icon {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
+
 .modal-textarea::-webkit-input-placeholder {
   color: rgba(33, 33, 33, 0.2);
 }
-.modal-textarea::-moz-placeholder {
-  color: rgba(33, 33, 33, 0.2);
-}
+
 .modal-textarea:-ms-input-placeholder {
   color: rgba(33, 33, 33, 0.2);
 }
+
 .modal-textarea::-ms-input-placeholder {
   color: rgba(33, 33, 33, 0.2);
 }
+
 .modal-textarea::placeholder {
   color: rgba(33, 33, 33, 0.2);
 }
+
 .modal-textarea:focus {
   outline: none;
   border-color: #2196f3;
@@ -827,6 +838,7 @@ svg.modal__icon {
 .btn-primary.modal-btn {
   min-width: 200px;
 }
+
 .btn-primary.modal-btn:focus, .btn-primary.modal-btn:hover {
   background-color: #188ce8;
 }
@@ -1062,6 +1074,7 @@ p.features__text {
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .clients__link:hover, .clients__link:focus {
   color: #2196f3;
 }
@@ -1127,7 +1140,7 @@ p.features__text {
 .btn-list button {
   border: transparent;
   border-radius: 4px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
@@ -1137,6 +1150,7 @@ p.features__text {
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .btn-list button:focus, .btn-list button:hover {
   color: #ffffff;
   background-color: #2196f3;
@@ -1157,6 +1171,7 @@ p.features__text {
   margin-left: 30px;
   margin-top: 30px;
 }
+
 .card:hover, .card:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -1199,7 +1214,9 @@ p.card__text {
   line-height: 1.56;
   letter-spacing: 0.03em;
 }
-.card:hover .overlay, .card:focus .overlay {
+
+.card:hover .overlay,
+.card:focus .overlay {
   opacity: 1;
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
@@ -1207,4 +1224,5 @@ p.card__text {
 
 p.overlay-text {
   color: #ffffff;
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */
