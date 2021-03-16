@@ -20,7 +20,7 @@
 }
 
 .about__item {
-    flex-basis: calc(100% / 3);
+    flex-basis: calc(100% / 3 - #{$set-gap});
     margin-left: $set-gap;
     margin-top: $set-gap;
 }

@@ -13,7 +13,7 @@
 }
 
 .features__item {
-    flex-basis: calc(100% / 4);
+    flex-basis: calc(100% / 4 - #{$set-gap});
     margin-left: $set-gap;
     margin-top: $set-gap;
     color: $primary-black;

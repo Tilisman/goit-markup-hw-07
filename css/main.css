@@ -151,14 +151,11 @@ address {
   background-color: #188ce8;
 }
 
-.container.container--page-header {
+.container.wrapper--page-header {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .page-header {
@@ -174,7 +171,6 @@ address {
           box-sizing: border-box;
 }
 
-/* Logo */
 .__logo {
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -287,6 +283,7 @@ address {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-left: auto;
 }
 
 .contacts__item:not(:first-child) {
@@ -331,9 +328,7 @@ address {
   margin-right: 10px;
 }
 
-/* !=== Footer ===! */
 .footer {
-  /* align-items: left; */
   padding: 60px 0;
   background-color: #2f303a;
 }
@@ -858,6 +853,7 @@ svg.modal__icon {
       -ms-flex-pack: center;
           justify-content: center;
   min-height: 600px;
+  max-width: 100vw;
 }
 
 .container.container--hero {
@@ -909,8 +905,8 @@ svg.modal__icon {
 }
 
 .features__item {
-  -ms-flex-preferred-size: calc(100% / 4);
-      flex-basis: calc(100% / 4);
+  -ms-flex-preferred-size: calc(100% / 4 - 30px);
+      flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   margin-top: 30px;
   color: #212121;
@@ -957,8 +953,8 @@ p.features__text {
 }
 
 .about__item {
-  -ms-flex-preferred-size: calc(100% / 3);
-      flex-basis: calc(100% / 3);
+  -ms-flex-preferred-size: calc(100% / 3 - 30px);
+      flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -1011,8 +1007,8 @@ p.features__text {
 
 .team__item {
   background-color: #ffffff;
-  -ms-flex-preferred-size: calc(100% / 4);
-      flex-basis: calc(100% / 4);
+  -ms-flex-preferred-size: calc(100% / 4 - 30px);
+      flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   margin-top: 30px;
   text-align: center;
@@ -1050,8 +1046,8 @@ p.features__text {
 }
 
 .clients__item {
-  -ms-flex-preferred-size: calc(100% / 6);
-      flex-basis: calc(100% / 6);
+  -ms-flex-preferred-size: calc(100% / 6 - 30px);
+      flex-basis: calc(100% / 6 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }

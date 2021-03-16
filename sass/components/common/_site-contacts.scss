@@ -3,6 +3,7 @@
 .contacts__list {
     display: flex;
     align-items: center;
+    margin-left: auto;
 }
 
 .contacts__item:not(:first-child) {
